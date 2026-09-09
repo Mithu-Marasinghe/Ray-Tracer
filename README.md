@@ -5,6 +5,9 @@ This scene depicts an implementation of a ray tracer with a set of unique featur
 tables, all encapsulated within a 6-axis aligned planes. In the back-left of the scene,
 there is a reflective plane to showcase the wall behind the camera.
 
+![RayTracerImplementation](./readmeImages/RayTracerImplementation.png)
+Figure 1: Ray Tracer Implementation
+
 ## Features
 
 #### 1. Additional Object Types
@@ -60,7 +63,7 @@ In VSCode install the CMake and CMake Tools extensions.
 • Open the extracted directory in VSCode by using File->Open Folder
 • In the CMake tab (found in the main left bar in VSCode), go to Project Status-Configure and press the Select A Kit button (pencil icon). Then select the Linux gcc
 or g++ compiler. This should create the necessary files in a build directory.
-• Go to Project Outline->lab1 and set the build and launch target to the executable
+• Go to Project Outline and set the build and launch target to the executable
 you want to run. You can do this by right clicking on the file and selecting
 • Set As Build Target and Set As Launch/Debug Target.
 • Go to Project Status->Launch and press the run button (play icon), this should
